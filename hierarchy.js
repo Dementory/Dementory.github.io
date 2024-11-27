@@ -2,6 +2,8 @@ var hierarchy =
 [
     [ "AA.Absorber", "class_a_a_1_1_absorber.html", null ],
     [ "AA.Battle.BattleInfo", "class_a_a_1_1_battle_1_1_battle_info.html", null ],
+    [ "AA.BiomConfigurator", "class_a_a_1_1_biom_configurator.html", null ],
+    [ "AA.BiomData", "class_a_a_1_1_biom_data.html", null ],
     [ "AA.Battle.Apearance.CharacterColorProvider< T >", "class_a_a_1_1_battle_1_1_apearance_1_1_character_color_provider.html", null ],
     [ "AA.Battle.Apearance.CharacterColorProvider< SkinColor >", "class_a_a_1_1_battle_1_1_apearance_1_1_character_color_provider.html", [
       [ "AA.Battle.Apearance.CharacterSkinColorProvider", "class_a_a_1_1_battle_1_1_apearance_1_1_character_skin_color_provider.html", null ]
@@ -10,12 +12,16 @@ var hierarchy =
       [ "AA.Battle.Apearance.CharacterTeamColorProvider", "class_a_a_1_1_battle_1_1_apearance_1_1_character_team_color_provider.html", null ]
     ] ],
     [ "AA.CharacterInfo", "class_a_a_1_1_character_info.html", null ],
+    [ "AA.CharacterConfigurerLib.StatsLib.CharacterParameterConfigurator", "class_a_a_1_1_character_configurer_lib_1_1_stats_lib_1_1_character_parameter_configurator.html", null ],
     [ "AA.Data.CharacterProfessionData", "class_a_a_1_1_data_1_1_character_profession_data.html", null ],
+    [ "AA.EnvironmentLib.SpawnLib.CharactersSpawner", "class_a_a_1_1_environment_lib_1_1_spawn_lib_1_1_characters_spawner.html", null ],
     [ "AA.EnvironmentLib.MonkeyLib.CombatLib.CombatProvider", "class_a_a_1_1_environment_lib_1_1_monkey_lib_1_1_combat_lib_1_1_combat_provider.html", null ],
     [ "AA.DamageDealModificator", "class_a_a_1_1_damage_deal_modificator.html", [
       [ "AA.ResistantDamageDealModificator", "class_a_a_1_1_resistant_damage_deal_modificator.html", null ]
     ] ],
     [ "AA.EnvironmentLib.GrassLib.GrassableDummy", "class_a_a_1_1_environment_lib_1_1_grass_lib_1_1_grassable_dummy.html", null ],
+    [ "AA.EnvironmentLib.GrassLib.GrassChunk", "class_a_a_1_1_environment_lib_1_1_grass_lib_1_1_grass_chunk.html", null ],
+    [ "AA.EnvironmentLib.GrassLib.GrassController", "class_a_a_1_1_environment_lib_1_1_grass_lib_1_1_grass_controller.html", null ],
     [ "AA.IBotTarget", "interface_a_a_1_1_i_bot_target.html", [
       [ "AA.AbsorbableObject", "class_a_a_1_1_absorbable_object.html", [
         [ "AA.HealingAbsorbable", "class_a_a_1_1_healing_absorbable.html", [
@@ -29,6 +35,12 @@ var hierarchy =
       ] ],
       [ "AA.EnvironmentLib.MonkeyLib.MonkeyBase", "class_a_a_1_1_environment_lib_1_1_monkey_lib_1_1_monkey_base.html", null ]
     ] ],
+    [ "AA.CharacterConfigurerLib.ICharacterConfigurer", "interface_a_a_1_1_character_configurer_lib_1_1_i_character_configurer.html", [
+      [ "AA.CharacterConfigurerLib.CharacterConfigurer", "class_a_a_1_1_character_configurer_lib_1_1_character_configurer.html", null ]
+    ] ],
+    [ "AA.ICharacterInfoProvider", "interface_a_a_1_1_i_character_info_provider.html", [
+      [ "AA.CharacterInfoProvider", "class_a_a_1_1_character_info_provider.html", null ]
+    ] ],
     [ "IDamageable", "interface_i_damageable.html", [
       [ "AA.MonkeyHealth", "class_a_a_1_1_monkey_health.html", null ]
     ] ],
@@ -39,17 +51,23 @@ var hierarchy =
     ] ],
     [ "AA.EnvironmentLib.SnowLib.ISnowable", "interface_a_a_1_1_environment_lib_1_1_snow_lib_1_1_i_snowable.html", null ],
     [ "AA.WorldGeneratorLib.SpawnLib.ISpawnBlocker", "interface_a_a_1_1_world_generator_lib_1_1_spawn_lib_1_1_i_spawn_blocker.html", null ],
+    [ "AA.CharacterConfigurerLib.StatsLib.IStatsCalculator", "interface_a_a_1_1_character_configurer_lib_1_1_stats_lib_1_1_i_stats_calculator.html", [
+      [ "AA.CharacterConfigurerLib.StatsLib.StatsCalculator", "class_a_a_1_1_character_configurer_lib_1_1_stats_lib_1_1_stats_calculator.html", null ]
+    ] ],
     [ "AA.MonkeyLib.MonkeyAnimationController", "class_a_a_1_1_monkey_lib_1_1_monkey_animation_controller.html", null ],
     [ "AA.MonkeyDresser", "class_a_a_1_1_monkey_dresser.html", null ],
     [ "AA.MonkeyMetrics", "class_a_a_1_1_monkey_metrics.html", null ],
     [ "AA.MonkeyPainter", "class_a_a_1_1_monkey_painter.html", null ],
     [ "AA.MonkeySkinPainter", "class_a_a_1_1_monkey_skin_painter.html", null ],
     [ "AA.EnvironmentLib.MonkeyLib.MonkeyStats", "class_a_a_1_1_environment_lib_1_1_monkey_lib_1_1_monkey_stats.html", null ],
+    [ "AA.PedestalSpawner", "class_a_a_1_1_pedestal_spawner.html", null ],
     [ "PhysicalAttributes", "class_physical_attributes.html", null ],
     [ "AA.Skill", "class_a_a_1_1_skill.html", null ],
     [ "AA.SkillManager", "class_a_a_1_1_skill_manager.html", null ],
     [ "SkillMetrics", "class_skill_metrics.html", null ],
+    [ "AA.EnvironmentLib.SnowLib.Snow", "class_a_a_1_1_environment_lib_1_1_snow_lib_1_1_snow.html", null ],
     [ "AA.EnvironmentLib.SnowLib.SnowableDummy", "class_a_a_1_1_environment_lib_1_1_snow_lib_1_1_snowable_dummy.html", null ],
+    [ "AA.EnvironmentLib.SnowLib.SnowController", "class_a_a_1_1_environment_lib_1_1_snow_lib_1_1_snow_controller.html", null ],
     [ "AA.MetaGame.SlotMachineLib.SpinRequireResource", "class_a_a_1_1_meta_game_1_1_slot_machine_lib_1_1_spin_require_resource.html", [
       [ "AA.MetaGame.SlotMachineLib.AdForSpin", "class_a_a_1_1_meta_game_1_1_slot_machine_lib_1_1_ad_for_spin.html", null ],
       [ "AA.MetaGame.SlotMachineLib.CurrencyForSpin", "class_a_a_1_1_meta_game_1_1_slot_machine_lib_1_1_currency_for_spin.html", null ]

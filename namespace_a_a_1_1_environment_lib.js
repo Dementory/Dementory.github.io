@@ -6,6 +6,6 @@ var namespace_a_a_1_1_environment_lib =
     [ "MonkeyLib", "namespace_a_a_1_1_environment_lib_1_1_monkey_lib.html", "namespace_a_a_1_1_environment_lib_1_1_monkey_lib" ],
     [ "NavigatorLib", "namespace_a_a_1_1_environment_lib_1_1_navigator_lib.html", null ],
     [ "SnowLib", "namespace_a_a_1_1_environment_lib_1_1_snow_lib.html", "namespace_a_a_1_1_environment_lib_1_1_snow_lib" ],
-    [ "SpawnLib", "namespace_a_a_1_1_environment_lib_1_1_spawn_lib.html", null ],
+    [ "SpawnLib", "namespace_a_a_1_1_environment_lib_1_1_spawn_lib.html", "namespace_a_a_1_1_environment_lib_1_1_spawn_lib" ],
     [ "WorldObjectLib", "namespace_a_a_1_1_environment_lib_1_1_world_object_lib.html", null ]
 ];
